@@ -1,0 +1,79 @@
+{
+    "$schema": "file:///C:/msys64/home/zhang/fastfetch/doc/json_schema.json",
+    "logo": {
+        "source": "~/.config/fastfetch/astronaunt.txt",
+        "type": "file",
+        "color": {
+            "1": "white",
+            "2": "red",
+            "3": "38;2;23;147;209"
+        }
+    },
+    "display": {
+        "separator": "\u001b[31m->   "
+    },
+    "modules": [
+        "break",
+        {
+            "type": "title",
+            "keyWidth": 10
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m└────────────────────────────────────────────────────────────┘"
+        },
+        {
+            "type": "custom",
+            "format": " \u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m  \u001b[38m  \u001b[39m       \u001b[38m  \u001b[37m  \u001b[36m  \u001b[35m  \u001b[34m  \u001b[33m  \u001b[32m  \u001b[31m  \u001b[90m"
+        },
+        {
+            "type": "custom",
+            "format": "\u001b[90m┌────────────────────────────────────────────────────────────┐"
+        },
+        {
+            "key": "Distro      ",
+            "type": "os"
+        },
+        {
+            "key": "DE          ",
+            "type": "de"
+        },
+        {
+            "key": "WM          ",
+            "type": "wm"
+        },
+        {
+            "key": "Uptime      ",
+            "type": "uptime"
+        },
+        {
+            "key": "Kernel      ",
+            "type": "kernel"
+        },
+        {
+            "key": "Shell       ",
+            "type": "shell"
+        },
+        {
+            "key": "Packages    ",
+            "type": "packages"
+        },
+        {
+            "key": "Terminal    ",
+            "type": "terminal"
+        },
+        {
+            "key": "Display     ",
+            "type": "display"
+        },
+        {
+            "key": "CPU         ",
+            "type": "cpu"
+            
+        },
+        {
+            "key": "Bluetooth   ",
+            "type": "bluetooth"
+        },
+    ]
+}
